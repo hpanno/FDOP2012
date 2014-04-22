@@ -1,6 +1,18 @@
+FireFamily Plus Fires Textfile Export (for shapefile)								
+   printed on: 01/25/2013   at  11:33:41 AM  (from run # 1)								
+   using database: C:\_projects\_FDOP\project_data\original_data\weather\La_Panza\LaPanza								
+								
+------------------------------------------------------								
+Active Working Set:								
+   Station: 044914  - LA PANZA            								
+   Data years:  2002 - 2012								
+   Analysis Period Length: 3 days								
+Fire Associations used:								
+"	CAL FIRE"	 3 Three	 SLU SLU						
+								
 Region	Unit	DiscoveryDate	Fire#	TotalAcres	FireName	Cause(USFS)	Latitude	Longitude
-3	SLU	20020102	350	1		TAPIDERO	9	35.3161	-120.7989
-3	SLU	20020112	192	1		PERFUMO	9	35.2289	-120.7811
+3	SLU	20020102	350	1	TAPIDERO	9	35.3161	-120.7989
+3	SLU	20020112	192	1	PERFUMO	9	35.2289	-120.7811
 3	SLU	20020119	308	0.1	NACIMIENTO L	9	35.6531	-120.7211
 3	SLU	20020126	425	0.1	TREE FORT	3	35.0481	-120.48
 3	SLU	20020301	1014	0.3	HWY. 101	4	35.3019	-120.6219
