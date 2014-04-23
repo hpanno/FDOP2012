@@ -55,9 +55,9 @@ In my situation, there were so many non-consecutive missing dates that I downloa
 - Are there any missing SOW (State of the Weather)?  If so, consider the time of the year and the SOW of days before and after the date you are determining to give you insight as to what the SOW for that day is likely to be.  
 - If you find data that is not accurate or that which yield values that seem to be outrageous you can use some of the resources below to fill in the gaps and/or verify or edit the values.  If there is no data to fix the issues you find, you will have to omit the records.  If this happens to be the case state in the FDOP that there was an omissions of records due to poor quality data.     
 
-Fire
+<h4>Fire</h4>
 
-1.	Download fire data from:  
+<hr>1.	Download fire data from:  
 
 https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 
@@ -124,8 +124,8 @@ Open your CSV. If your date appear to be ######## right click on the DiscoveryDa
 Import your CSV back into FF+ and be sure to include ‘SubUnit’ at the end of your field items to import and also verify that the date format matches the format you adjusted your ‘DiscoveryDate’ values in the CSV.
 	
 
-Stats Graphs
-1.	Fire Occurrence graphs:
+<h4>Stats Graphs</h4>
+<hr>1.	Fire Occurrence graphs:
 a.	One including All FDRAs: Coastal, Inland, and Other
 b.	Coastal FDRA
 c.	Inland FDRA
@@ -175,8 +175,8 @@ This is determined by running different fuel models against fire and weather his
 3.	The default ‘Class BI Ranges’ will be the values entered into the “Staffing Level: Break Points chart”.  Round the Values for the chart.
 
 
-Preparedness Level
-1.	The point at which large fires start to take off based on ERC.  
+<h4>Preparedness Level</h4>
+<hr>1.	The point at which large fires start to take off based on ERC.  
 2.	Select appropriate ‘SIG/Station’> Data Years> Annual Filter set for fire season> Select ‘Fires’> ‘Fire Analysis’> Large Fires (Acres):8> Multi Fire Day (Fire):3> Select ERC from the drop down> Check the ‘Conditional Probability Analysis Fire Days Only’ box> 
 -	Close the ‘Cumulative Fires Analysis’ Window. Looking at the ‘Fires Probability Analysis’ you can see when large fires start to take off as illustrated by the magenta line with the open square (Large Fire Day). When the data indicates an increase in occurrence of large fires, this is the point at with the threshold should be placed. Click directly on the pink square to view the value. The X-value in the bottom right hand corner of the screen in the ERC threshold value that will be recorded in FDOP.  In order to verify this threshold value:
 -	Select ‘View’> ‘Decision Points’> In the ‘Class Lower Limits’ window delete all but two of the threshold classes> Make Class 1 and value of ‘0’ and Class 2 the threshold X-value> Select ‘Apply’
@@ -185,7 +185,7 @@ Preparedness Level
 -	If the threshold line is not drawn at the necessary position on the graphs adjust the threshold value in the ‘Class Lower Limits’ window to determine the appropriate preparedness threshold value.
 3.	Complete this process for both FDRAs and record the appropriate threshold value in the Preparedness Level chart. 
 
-Pocket Cards
+<h4>Pocket Cards</h4>
 A pocket card must be created for each FDRA, which will display the three largest fires.  
 1.	For the Inland FDRA, instead of using the largest fires by acreage we used the top three most well known fires in San Luis County.  This is because these fires are the events that resonate with the SLU.  
 Select ‘Weather’> ‘Pocket Card’> 
@@ -212,8 +212,8 @@ Highway 58 fire 8/15/1996 burned 33,094 acres
 X://projectdata>master_data>Coastal.bmp
 4.	Under the ‘Fire Danger Area’ enter in the region (i.e. coastal or inland), the RAWS located in the region, 
 
-Updating the FDOP Annually
-1.	Enter in all fire and weather records for the past year
+<h4>Updating the FDOP Annually</h4>
+<hr>1.	Enter in all fire and weather records for the past year
 2.	Run the above statistical graphics to produce new charts.  These charts shouldn’t change too drastically unless there were exceptionally large or small fires, or drastically hot or cold days.  
 a.	Fire Occurrence Graphs will need to be updated.  All descriptive text and percentages need to be adjusted accordingly.  
 3.	Climatology Graphs of Temperature and Rainfall.  These can be obtained from:
@@ -233,7 +233,7 @@ Cause Code Conversion Chart: CAL FIRE Cause Code to Federal Cause Code
 Cause Code Converter
 
 
-CDF Cause Code	Cause Description	Federal Cause Code
+<h3>CDF Cause Code	Cause Description	Federal Cause Code</h3>
 
 
 0	Unknown         9<br/>
