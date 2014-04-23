@@ -186,7 +186,7 @@ This is determined by running different fuel models against fire and weather his
 3.	Complete this process for both FDRAs and record the appropriate threshold value in the Preparedness Level chart. 
 
 <h4>Pocket Cards</h4>
-A pocket card must be created for each FDRA, which will display the three largest fires.  
+<hr>A pocket card must be created for each FDRA, which will display the three largest fires.  
 1.	For the Inland FDRA, instead of using the largest fires by acreage we used the top three most well known fires in San Luis County.  This is because these fires are the events that resonate with the SLU.  
 Select ‘Weather’> ‘Pocket Card’> 
 Fire Danger Area: ‘Inland FDRA’ 
