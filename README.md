@@ -232,6 +232,8 @@ Cause Code Conversion Chart:
 Cause Code Conversion Chart: CAL FIRE Cause Code to Federal Cause Code 
 Cause Code Converter
 CDF Cause Code	Cause Description	Federal Cause Code
+
+
 0	Unknown	9
 1	Undetermined	9
 2	Lightning	1
@@ -245,5 +247,7 @@ CDF Cause Code	Cause Description	Federal Cause Code
 10	Vehicle	2
 11	Railroad	6
 12	Powerline	2
+
+
 (Obtained from CAL FIRE intranet)
 In preparation for statistical analysis, the CAL FIRE cause code must be translated to the federal cause code for use in Fire Family Plus software.  The char above outlines the cause code conversion from CDF to Federal cause codes.  
