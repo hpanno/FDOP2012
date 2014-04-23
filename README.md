@@ -4,7 +4,7 @@ FDOP2013
 Fire Danger Operating Plan 2012
 
 
-<h1>Getting Started</h1>
+<h3>Getting Started</h3>
 <hr>1.	Download FireFamilyPlus from:
 
 http://www.firemodels.org/index.php/firefamilyplus-software/firefamilyplus-downloads
