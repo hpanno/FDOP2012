@@ -231,22 +231,24 @@ d.	Historic Fires for Reference Depicted on the Coastal FDRA Pocket Card
 Cause Code Conversion Chart:
 Cause Code Conversion Chart: CAL FIRE Cause Code to Federal Cause Code 
 Cause Code Converter
+
+
 CDF Cause Code	Cause Description	Federal Cause Code
 
 
 0	Unknown         9<br/>
-1	Undetermined	9</br>
-2	Lightning	1</br>
-3	Campfire	4</br>
-4	Smoking	        3</br>
-5	Debris Burning	5</br>
-6	Arson	        7</br>
-7	Equipment Use	2</br>
-8	Playing/Fire	8</br>
-9	Miscellaneous	9</br>
-10	Vehicle	        2</br>
-11	Railroad	6</br>
-12	Powerline	2</br>
+1	Undetermined	9<br/>
+2	Lightning	1<br/>
+3	Campfire	4<br/>
+4	Smoking	        3<br/>
+5	Debris Burning	5<br/>
+6	Arson	        7<br/>
+7	Equipment Use	2<br/>
+8	Playing/Fire	8<br/>
+9	Miscellaneous	9<br/>
+10	Vehicle	        2<br/>
+11	Railroad	6<br/>
+12	Powerline	2<br/>
 
 
 (Obtained from CAL FIRE intranet)
