@@ -224,9 +224,7 @@ http://www.weather.com/weather/wxclimatology/monthly/graph/USCA0842
 <br><br>5.	If the information in the station catalog in WIMS changes or is updated a new screenshot should be included in place of the current.  
 <br><br>6.	If the conditions of the RAWS change, it should be noted in the ‘RAWS Site Description and Photos’ section.
 <br><br>7.	All pocket cards in the appendix need to be updated.  
-<br>Cause Code Conversion Chart:
-<br><br>Cause Code Conversion Chart: CAL FIRE Cause Code to Federal Cause Code 
-<br>Cause Code Converter
+
 
 
 <h3>CDF Cause Code	Cause Description	Federal Cause Code</h3>
