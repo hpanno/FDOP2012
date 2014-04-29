@@ -57,7 +57,7 @@ In my situation, there were so many non-consecutive missing dates that I downloa
 
 <h4>Fire</h4>
 
-<br><br><hr>1.	Download fire data from:  
+<br><hr>1.	Download fire data from:  
 
 <br>https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 
