@@ -124,7 +124,7 @@ Save all edits and close editing session.
 <br>Import your CSV back into FF+ and be sure to include ‘SubUnit’ at the end of your field items to import and also verify that the date format matches the format you adjusted your ‘DiscoveryDate’ values in the CSV.
 	
 
-<br><br<h4>Stats Graphs</h4>
+<h4>Stats Graphs</h4>
 <hr>1.	Fire Occurrence graphs:a.	One including All FDRAs: Coastal, Inland, and Ob.	Coasc.i.	‘Fires’>’Summary’>’Working Set’>Select the ‘CAL FIRE’ Tab>Region ‘3RSS’> Unit ‘SLU San Luis Obispo’>Sub Unit ‘COASTAL Coastal’> ‘Ok’
 <br>1.	Annual Filter should be set for the entire calendar year for these graphs. 
 <br>ii.	Screen Shot the graph and insert into FDOP
