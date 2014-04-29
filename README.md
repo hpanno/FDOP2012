@@ -172,7 +172,7 @@ This is determined by running different fuel models against fire and weather his
 
 
 <h4>Preparedness Level</h4>
-<br><br><hr>1.	The point at which large fires start to take off based on ERC.  
+<hr>1.	The point at which large fires start to take off based on ERC.  
 <br>2.	Select appropriate ‘SIG/Station’> Data Years> Annual Filter set for fire season> Select ‘Fires’> ‘Fire Analysis’> Large Fires (Acres):8> Multi Fire Day (Fire):3> Select ERC from the drop down> Check the ‘Conditional Probability Analysis Fire Days Only’ box> 
 <br>-	Close the ‘Cumulative Fires Analysis’ Window. Looking at the ‘Fires Probability Analysis’ you can see when large fires start to take off as illustrated by the magenta line with the open square (Large Fire Day). When the data indicates an increase in occurrence of large fires, this is the point at with the threshold should be placed. Click directly on the pink square to view the value. The X-value in the bottom right hand corner of the screen in the ERC threshold value that will be recorded in FDOP.  In order to verify this threshold value:
 <br>-	Select ‘View’> ‘Decision Points’> In the ‘Class Lower Limits’ window delete all but two of the threshold classes> Make Class 1 and value of ‘0’ and Class 2 the threshold X-value> Select ‘Apply’
@@ -182,7 +182,7 @@ This is determined by running different fuel models against fire and weather his
 <br><br>3.	Complete this process for both FDRAs and record the appropriate threshold value in the Preparedness Level chart. 
 
 <h4>Pocket Cards</h4>
-<br><br><hr>A pocket card must be created for each FDRA, which will display the three largest fires.  
+<hr>A pocket card must be created for each FDRA, which will display the three largest fires.  
 <br>1.	For the Inland FDRA, instead of using the largest fires by acreage we used the top three most well known fires in San Luis County.  This is because these fires are the events that resonate with the SLU.  
 Select ‘Weather’> ‘Pocket Card’> 
 Fire Danger Area: ‘Inland FDRA’ 
@@ -209,7 +209,7 @@ X://projectdata>master_data>Coastal.bmp
 <br><br>4.	Under the ‘Fire Danger Area’ enter in the region (i.e. coastal or inland), the RAWS located in the region, 
 
 <h4>Updating the FDOP Annually</h4>
-<br><br><hr>1.	Enter in all fire and weather records for the past year
+<hr>1.	Enter in all fire and weather records for the past year
 <br><br>2.	Run the above statistical graphics to produce new charts.  These charts shouldn’t change too drastically unless there were exceptionally large or small fires, or drastically hot or cold days.  
 <br>a.	Fire Occurrence Graphs will need to be updated.  All descriptive text and percentages need to be adjusted accordingly.  
 <br><br>3.	Climatology Graphs of Temperature and Rainfall.  These can be obtained from:
