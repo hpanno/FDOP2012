@@ -26,8 +26,7 @@ Select Weather> Station Catalog> Station Information> Select ‘Single Station�
 <hr><br><b>1.	Download weather data from:</b>
 <br>https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 <br>Select Weather> Data Extract> Historical> Enter in Station ID and date range> Select ‘Raw Datafile – 1998 Data Format> Save .fw9 file to appropriate folder
-
-<br><br>2.	Importing the  Weather Data:
+<br>2.	Importing the  Weather Data:
 <br>-From the Data Menu> Select Import> Select Old Wx Import> The Selected Fields should include: Station ID, Obs Date, Obs Time, Obs Type, OMC10, RH, and Windspeed> Select the StationID Box> Select Overwrite Duplicates.  
 UPDATED: Select Data> Import> Generic Wx> upload your .fw9 files.
 
