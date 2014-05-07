@@ -5,14 +5,15 @@ Fire Danger Operating Plan 2012
 
 
 <h3>Getting Started</h3>
-<hr>1.	Download FireFamilyPlus from:
+<hr><b>1.	Download FireFamilyPlus from:<b/>
 
 http://www.firemodels.org/index.php/firefamilyplus-software/firefamilyplus-downloads
 
-<br><br>2.	Create a Database:
-File> New> Name your Database and save it to an appropriate location> Give it a description.
-Station Catalog
-<br><br>1.	Download station catalog information from:
+<br>2.	Create a Database:
+<br>File> New> Name your Database and save it to an appropriate location> Give it a description.
+
+<h3>Station Catalog</h3>
+<hr>1.	Download station catalog information from:
 
 https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 
