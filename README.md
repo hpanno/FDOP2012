@@ -35,7 +35,7 @@ UPDATED: Select Data> Import> Generic Wx> upload your .fw9 files.
 <br>-Once you import your weather data> Select from the Weather Menu> ‘View Observations’> ‘Daily’> go through to look for missing SOW’s or missing records.  
 -If you have missing information you need to go to: http://www.raws.dri.edu/index.html to down load the missing data.  Select CA> select your RAWS site from the list to the left or select the station on the map> Select ‘Data Lister’ from the list on the left hand side of the screen> Specify the dates in which you are missing data > If you are downloading more than 30 days worth of data you need to enter in a PW (for Southern CA it is wrcc23)> Save this as a .txt file to the appropriate folder.   
 In my situation, there were so many non-consecutive missing dates that I downloaded data for the entire 10 years rather than many multiple single date files.  The directions that follow will explain how to edit and filter out only the records you need.     
-<br><b>4.	Editing Weather data<b/>
+<br><b>4.	Editing Weather data</b>
 <br>-Open the .fw9 file you downloaded in Notepad++. 
 <br>-Remove all html code from the bottom of the file and the top of the file. 
 <br>-Remove colons from the beginning of the first two strings of line.  (This is to help format and line up the data correctly for import back into FFP)
