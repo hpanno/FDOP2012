@@ -45,10 +45,10 @@ In my situation, there were so many non-consecutive missing dates that I downloa
 <br>-Remove the top two strings of text that were used to format the data.
 <br>-Save as a .txt file for import. 
 
-<br><br><b>5.	Importing Edited Weather data<b/>
+<br><br><b>5.	Importing Edited Weather data</b>
 <br>-From the Data Menu> Select ‘Import’> Select ‘New FW9 Files’> Select your .txt file> Import. 
 
-<br><br><b>6.	Searching for Anomalies in the data<b/>
+<br><br><b>6.	Searching for Anomalies in the data</b>
 <br>- Once you have a complete weather database it is important to examine the data for anything that may not be accurate.  Poor quality data is due to either human error in entering in daily weather observations or mechanical errors at the RAWS stations itself.  Things to look out for:
 -Do the values make sense? For example, if the temperature was recorded being 100 degrees in December, there may be a problem.   
 -Repetitive values for any variable.  In my case there was an occurrence of a Relative Humidity of 4 for about three months straight.  While this may be possible, it is highly unlikely that this is accurate. 
@@ -57,22 +57,22 @@ In my situation, there were so many non-consecutive missing dates that I downloa
 
 <h4>Fire</h4>
 
-<hr><b>1.	Download fire data from:<b/>  
+<hr><b>1.	Download fire data from:</b>  
 
 <br>https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 
 <br>Select Fire> Standard Extract> Enter in Region/Forest and date range
 
-<br><br><b>2.	Importing Fire Data:<b/>
+<br><br><b>2.	Importing Fire Data:</b>
 <br>-From the Data Menu> import>Select from drop down menu ‘USFS’> Select ‘Raw Files’> Select your .raw file
 <br>-Region:Unit:Discovery Date:Fire Number:Acerage:Fire Name:Cause:Latitude:Longitude
 
-<br><br><b>3.	Obtain LE-66 Data:<b/>
+<br><br><b>3.	Obtain LE-66 Data:</b>
 <br>-Create an excel spread sheet for your 10 years worth of data.
 <br>-The LE-66 data is stored in on the (F:) drive so you need to be connected to the VPN in order to get access. 
 	(F:)>data>prevent>Prevention>STATS3421
 
-<br><br><b>4.	Preparing LE-66 Data:<b/>
+<br><br><b>4.	Preparing LE-66 Data:</b>
 <br>-Create columns for date, incident number, cause, comments, latitude, longitude and copy and populate the fields. 
 <br>- Save this file as a .txt for import. 
 <br>- Make sure the date has been formatted correctly YYYYMMDD (right click>format cells)
@@ -84,7 +84,7 @@ In my situation, there were so many non-consecutive missing dates that I downloa
 	(F:)>data>prevent>Prevention>STATS3421>log cover causes.doc
 when performing your filter to find and replace the cause variables. 
 
-<br><br><b>5.	Additional Editing for LE-66 Data:<b/>
+<br><br><b>5.	Additional Editing for LE-66 Data:</b>
 <br>-If you do not need your lat and long data to be in DD, then disregard the following instructions..
 <br>-The lat and long data I gathered from the LE-66 STATS were in different formats i.e. DMS, DM, and were also in different variations of each format.
 <br>-I created ‘working data’ columns of lat and long in order to apply excel formulas to convert these formats all into DD (the format in which my mapping platform of choice required for import).  
@@ -97,7 +97,7 @@ when performing your filter to find and replace the cause variables.
 <br>-Once all the data has been converted to DD I made sure that all the Longitude values were (-). 
 <br>-I then created final columns for both lat and long and copied and pasted only the values from my lat and long ‘working data’ columns into my lat and long ‘final data’.
 
-<br><br><b>6.	Using Fire Reports<b/>
+<br><br><b>6.	Using Fire Reports</b>
 <br>-Using Internet Explorer go to :
 http://webrpt.fire.ca.gov/InfoViewApp/logon.aspx
 Log on with: sluecc; pinnerMAY06
@@ -106,9 +106,9 @@ Log on with:slurpt; broken9b
 <br>-Enter in YYYY###### to look up each individual fire report. Verify date, author, lat, and long.
 <br>-save as a .csv for import.
 
-<br><br><b>7.	Creating an Excel from Ignition Data<b/>
+<br><br><b>7.	Creating an Excel from Ignition Data</b>
 
-<br><br><b>8.	Populating the ‘SubUnit’ Field<b/>
+<br><br><b>8.	Populating the ‘SubUnit’ Field</b>
 Export your fire data from FF+ as a shapefile. Be sure to include ‘SubUnit’ as a field during export. Import your ignition and FDRA .shps into arc. > Open the Ignition attributes table and create a text field called ‘SubUnit’ > In the ‘Select’ menu chose ‘Select by Location’.
 	I want to: ‘select features from’
 	The following layer(s): [your ignition data]
@@ -125,16 +125,16 @@ Save all edits and close editing session.
 	
 
 <h4>Stats Graphs</h4>
-<hr><b>1.	Fire Occurrence graphs:<b/>
+<hr><b>1.	Fire Occurrence graphs:</b>
 a.	One including All FDRAs: Coastal, Inland, and Ob.	Coasc.i.	‘Fires’>’Summary’>’Working Set’>Select the ‘CAL FIRE’ Tab>Region ‘3RSS’> Unit ‘SLU San Luis Obispo’>Sub Unit ‘COASTAL Coastal’> ‘Ok’
 <br>1.	Annual Filter should be set for the entire calendar year for these graphs. 
 <br>ii.	Screen Shot the graph and insert into FDOP
 <br>iii.	Complete the Steps above for each Sub Unit
 All fire occurrence graphs need to be based on the entire calendar year.
-<br><br><b>2.	Determining Thresholds:<b/>  
+<br><br><b>2.	Determining Thresholds:</b>  
 For each FDRA the thresholds need to be determined.  The program will do this for you however; you need to confirm that the default percentage values for the thresholds are indeed accurate after all climatology statistics graphs have been run.  The given percentages should coincide with the data output of the fire analysis.  
   
-<br><b>3.	Three indice graphs for each FDRA<b/>
+<br><b>3.	Three indice graphs for each FDRA</b>
 <br>a.	ERC displaying: min, max, avg 
 <br>i.	‘Weather’>’Climatology’>Select the ‘Stats Graph’ box for the Variable ‘Energy Release Component’>’Run’
 <br>ii.	Maximize the left portion of the screen 
@@ -152,14 +152,14 @@ For each FDRA the thresholds need to be determined.  The program will do this fo
 <br>iv.	The onset of fire season is illustrated here when the ‘Average’ line crosses the 38th percentile threshold.  The purpose of this graph is to show that fire season can start well before the traditional start (May 15th) of fire season and conversely, that fire season sometimes starts after the common start date.  
 <br>v.	Select ‘Options’>’Overlays’>’New’>  Toggle between the years and find the year that has the earliest start date (When it crosses the 38th percentile threshold) and which has the latest start date.  Give each a unique color, a line width of 3, and make it a solid line. Select ‘Ok’.  
 <br>vi.	Screen Shot the Graph and insert into the FDOP
-<br><b>4.	Decision Points for Dispatch Level<b/> 
+<br><b>4.	Decision Points for Dispatch Level</b> 
 <br>a.	Decision points should be set using BI. 
 <br>i.	Select the ‘A’ on the ribbon at the top of the screen> run the operation with default values selected> Click on the ‘Fires Probability Analysis’ Window> Select ‘View’> ‘Decision Points’> Delete 2 records so you are left with 3 classes
 <br>ii.	Set the first class to 0, set the second class to the value at which fires begin to take off.  Visually, this is when there appears to be a large jump from low to high.  The last class should be set at the BI value where the crest of the graph is no longer in a drastic incline and starts to plateau. The second decision class created should hold the greatest number of fires whereas the first and last should contain the least amount of fire occurrence.  
 <br>iii.	When these levels have been adjusted to accommodate the fire data select ‘Apply’> Adjust the screen so that all graphs fit appropriately>Screen shot and insert into the FDOP. 
 <br>iv.	Adjust the ‘Dispatch Level: Fire Family Plus Analysis Factors and Determinations’ Table (Specifically, the ‘Index Break Points’ section).  
 NOTE: All Decision Point graphs need to be based on Fire season (May1-Oct 31), not the calendar year.
-<br><b>5.	When updating numbers and percent values in FDOP:<b/>
+<br><b>5.	When updating numbers and percent values in FDOP:</b>
 <br>a.	Follow instructions to look at fire occurrence chart> Select ‘Options’> ‘View Graph Data’
 <br>b.	This ‘Fire Occurrence Summary’ page will provide the exact values behind all the graphics illustrated for fire occurrence. 
 
