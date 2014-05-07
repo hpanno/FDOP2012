@@ -152,6 +152,7 @@ For each FDRA the thresholds need to be determined.  The program will do this fo
 <br>iv.	The onset of fire season is illustrated here when the ‘Average’ line crosses the 38th percentile threshold.  The purpose of this graph is to show that fire season can start well before the traditional start (May 15th) of fire season and conversely, that fire season sometimes starts after the common start date.  
 <br>v.	Select ‘Options’>’Overlays’>’New’>  Toggle between the years and find the year that has the earliest start date (When it crosses the 38th percentile threshold) and which has the latest start date.  Give each a unique color, a line width of 3, and make it a solid line. Select ‘Ok’.  
 <br>vi.	Screen Shot the Graph and insert into the FDOP
+
 <br><b>4.	Decision Points for Dispatch Level</b> 
 <br>a.	Decision points should be set using BI. 
 <br>i.	Select the ‘A’ on the ribbon at the top of the screen> run the operation with default values selected> Click on the ‘Fires Probability Analysis’ Window> Select ‘View’> ‘Decision Points’> Delete 2 records so you are left with 3 classes
@@ -159,6 +160,7 @@ For each FDRA the thresholds need to be determined.  The program will do this fo
 <br>iii.	When these levels have been adjusted to accommodate the fire data select ‘Apply’> Adjust the screen so that all graphs fit appropriately>Screen shot and insert into the FDOP. 
 <br>iv.	Adjust the ‘Dispatch Level: Fire Family Plus Analysis Factors and Determinations’ Table (Specifically, the ‘Index Break Points’ section).  
 NOTE: All Decision Point graphs need to be based on Fire season (May1-Oct 31), not the calendar year.
+
 <br><b>5.	When updating numbers and percent values in FDOP:</b>
 <br>a.	Follow instructions to look at fire occurrence chart> Select ‘Options’> ‘View Graph Data’
 <br>b.	This ‘Fire Occurrence Summary’ page will provide the exact values behind all the graphics illustrated for fire occurrence. 
