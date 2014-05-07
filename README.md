@@ -21,21 +21,21 @@ Select Weather> Station Catalog> Station Information> Select ‘Single Station�
 <br><b>2.	Importing the Station Catalog:</b>
 <br>-On the Data Menu> Select Import> Select WIMS Station Catalogs> Select the appropriate .txt file> 
 <br>-From the data Menu> Select Stations> This will show you which stations are available for you to work with in the data base and you should see the station catalog you have just imported.  From this screen you can highlight your station and select ‘Edit’.  This will show you all the attributes of your station.  <b>(You should make note of the USFS region – you will need to know that value for when you download your fire data).</b>     
-<br>- In your working set dialog box under ‘SIG/Station’> Select your station from the drop down menu. 
+-In your working set dialog box under ‘SIG/Station’> Select your station from the drop down menu. 
 <h3>Weather<h3/>
 <hr><br><b>1.	Download weather data from:</b>
 <br>https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 <br>Select Weather> Data Extract> Historical> Enter in Station ID and date range> Select ‘Raw Datafile – 1998 Data Format> Save .fw9 file to appropriate folder
-<br>2.	Importing the  Weather Data:
+<br><br>2.	Importing the  Weather Data:
 <br>-From the Data Menu> Select Import> Select Old Wx Import> The Selected Fields should include: Station ID, Obs Date, Obs Time, Obs Type, OMC10, RH, and Windspeed> Select the StationID Box> Select Overwrite Duplicates.  
 UPDATED: Select Data> Import> Generic Wx> upload your .fw9 files.
 
 
-<br><br>3.	Missing Records:  
+<br><br><b>3.	Missing Records:</b>  
 <br>-Once you import your weather data> Select from the Weather Menu> ‘View Observations’> ‘Daily’> go through to look for missing SOW’s or missing records.  
-<br>-If you have missing information you need to go to: http://www.raws.dri.edu/index.html to down load the missing data.  Select CA> select your RAWS site from the list to the left or select the station on the map> Select ‘Data Lister’ from the list on the left hand side of the screen> Specify the dates in which you are missing data > If you are downloading more than 30 days worth of data you need to enter in a PW (for Southern CA it is wrcc23)> Save this as a .txt file to the appropriate folder.   
+-If you have missing information you need to go to: http://www.raws.dri.edu/index.html to down load the missing data.  Select CA> select your RAWS site from the list to the left or select the station on the map> Select ‘Data Lister’ from the list on the left hand side of the screen> Specify the dates in which you are missing data > If you are downloading more than 30 days worth of data you need to enter in a PW (for Southern CA it is wrcc23)> Save this as a .txt file to the appropriate folder.   
 In my situation, there were so many non-consecutive missing dates that I downloaded data for the entire 10 years rather than many multiple single date files.  The directions that follow will explain how to edit and filter out only the records you need.     
-<br>4.	Editing Weather data
+<br><b>4.	Editing Weather data<b/>
 <br>-Open the .fw9 file you downloaded in Notepad++. 
 <br>-Remove all html code from the bottom of the file and the top of the file. 
 <br>-Remove colons from the beginning of the first two strings of line.  (This is to help format and line up the data correctly for import back into FFP)
@@ -45,46 +45,46 @@ In my situation, there were so many non-consecutive missing dates that I downloa
 <br>-Remove the top two strings of text that were used to format the data.
 <br>-Save as a .txt file for import. 
 
-<br><br>5.	Importing Edited Weather data
+<br><br><b>5.	Importing Edited Weather data<b/>
 <br>-From the Data Menu> Select ‘Import’> Select ‘New FW9 Files’> Select your .txt file> Import. 
 
-<br><br>6.	Searching for Anomalies in the data
+<br><br><b>6.	Searching for Anomalies in the data<b/>
 <br>- Once you have a complete weather database it is important to examine the data for anything that may not be accurate.  Poor quality data is due to either human error in entering in daily weather observations or mechanical errors at the RAWS stations itself.  Things to look out for:
-<br>- Do the values make sense? For example, if the temperature was recorded being 100 degrees in December, there may be a problem.   
-<br>- Repetitive values for any variable.  In my case there was an occurrence of a Relative Humidity of 4 for about three months straight.  While this may be possible, it is highly unlikely that this is accurate. 
-<br>- Are there any missing SOW (State of the Weather)?  If so, consider the time of the year and the SOW of days before and after the date you are determining to give you insight as to what the SOW for that day is likely to be.  
-<br>- If you find data that is not accurate or that which yield values that seem to be outrageous you can use some of the resources below to fill in the gaps and/or verify or edit the values.  If there is no data to fix the issues you find, you will have to omit the records.  If this happens to be the case state in the FDOP that there was an omissions of records due to poor quality data.     
+-Do the values make sense? For example, if the temperature was recorded being 100 degrees in December, there may be a problem.   
+-Repetitive values for any variable.  In my case there was an occurrence of a Relative Humidity of 4 for about three months straight.  While this may be possible, it is highly unlikely that this is accurate. 
+-Are there any missing SOW (State of the Weather)?  If so, consider the time of the year and the SOW of days before and after the date you are determining to give you insight as to what the SOW for that day is likely to be.  
+-If you find data that is not accurate or that which yield values that seem to be outrageous you can use some of the resources below to fill in the gaps and/or verify or edit the values.  If there is no data to fix the issues you find, you will have to omit the records.  If this happens to be the case state in the FDOP that there was an omissions of records due to poor quality data.     
 
 <h4>Fire</h4>
 
-<hr>1.	Download fire data from:  
+<hr><b>1.	Download fire data from:<b/>  
 
 <br>https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 
 <br>Select Fire> Standard Extract> Enter in Region/Forest and date range
 
-<br><br>2.	Importing Fire Data:
+<br><br><b>2.	Importing Fire Data:<b/>
 <br>-From the Data Menu> import>Select from drop down menu ‘USFS’> Select ‘Raw Files’> Select your .raw file
 <br>-Region:Unit:Discovery Date:Fire Number:Acerage:Fire Name:Cause:Latitude:Longitude
 
-<br><br>3.	Obtain LE-66 Data:
+<br><br><b>3.	Obtain LE-66 Data:<b/>
 <br>-Create an excel spread sheet for your 10 years worth of data.
 <br>-The LE-66 data is stored in on the (F:) drive so you need to be connected to the VPN in order to get access. 
 	(F:)>data>prevent>Prevention>STATS3421
 
-<br><br>4.	Preparing LE-66 Data:
+<br><br><b>4.	Preparing LE-66 Data:<b/>
 <br>-Create columns for date, incident number, cause, comments, latitude, longitude and copy and populate the fields. 
 <br>- Save this file as a .txt for import. 
 <br>- Make sure the date has been formatted correctly YYYYMMDD (right click>format cells)
 <br>- Change all cause codes (refer to FDOP for conversion chart)
 <br>-Make sure all the years are correct.  In my experience, I found incidents for 2005 in the 2004 LE-66 stat document, so correct as necessary.   
-<br>-Cause will be represented by a letter, number, or a combination of both.  For the years 2009-2012 there is a document on the (f:) that will have a description for each letter/number value.
+-Cause will be represented by a letter, number, or a combination of both.  For the years 2009-2012 there is a document on the (f:) that will have a description for each letter/number value.
 	(F:)>data>prevent>Prevention>STATS3421>2009 and after log cover causes.doc
   I created another spread sheet in order to edit just the data from 2009-2012.  Once I had this data isolated I performed a filter function on the ‘cause’ column.  Using this function I isolated each variable and replaced it with the cause description.  For the data 2002-2008 refer to 
 	(F:)>data>prevent>Prevention>STATS3421>log cover causes.doc
 when performing your filter to find and replace the cause variables. 
 
-<br><br>5.	Additional Editing for LE-66 Data:
+<br><br><b>5.	Additional Editing for LE-66 Data:<b/>
 <br>-If you do not need your lat and long data to be in DD, then disregard the following instructions..
 <br>-The lat and long data I gathered from the LE-66 STATS were in different formats i.e. DMS, DM, and were also in different variations of each format.
 <br>-I created ‘working data’ columns of lat and long in order to apply excel formulas to convert these formats all into DD (the format in which my mapping platform of choice required for import).  
@@ -97,7 +97,7 @@ when performing your filter to find and replace the cause variables.
 <br>-Once all the data has been converted to DD I made sure that all the Longitude values were (-). 
 <br>-I then created final columns for both lat and long and copied and pasted only the values from my lat and long ‘working data’ columns into my lat and long ‘final data’.
 
-<br><br>6.	Using Fire Reports
+<br><br><b>6.	Using Fire Reports<b/>
 <br>-Using Internet Explorer go to :
 http://webrpt.fire.ca.gov/InfoViewApp/logon.aspx
 Log on with: sluecc; pinnerMAY06
@@ -106,9 +106,9 @@ Log on with:slurpt; broken9b
 <br>-Enter in YYYY###### to look up each individual fire report. Verify date, author, lat, and long.
 <br>-save as a .csv for import.
 
-<br><br>7.	Creating an Excel from Ignition Data
+<br><br><b>7.	Creating an Excel from Ignition Data<b/>
 
-<br><br>8.	Populating the ‘SubUnit’ Field
+<br><br><b>8.	Populating the ‘SubUnit’ Field<b/>
 Export your fire data from FF+ as a shapefile. Be sure to include ‘SubUnit’ as a field during export. Import your ignition and FDRA .shps into arc. > Open the Ignition attributes table and create a text field called ‘SubUnit’ > In the ‘Select’ menu chose ‘Select by Location’.
 	I want to: ‘select features from’
 	The following layer(s): [your ignition data]
@@ -125,15 +125,16 @@ Save all edits and close editing session.
 	
 
 <h4>Stats Graphs</h4>
-<hr>1.	Fire Occurrence graphs:a.	One including All FDRAs: Coastal, Inland, and Ob.	Coasc.i.	‘Fires’>’Summary’>’Working Set’>Select the ‘CAL FIRE’ Tab>Region ‘3RSS’> Unit ‘SLU San Luis Obispo’>Sub Unit ‘COASTAL Coastal’> ‘Ok’
+<hr><b>1.	Fire Occurrence graphs:<b/>
+a.	One including All FDRAs: Coastal, Inland, and Ob.	Coasc.i.	‘Fires’>’Summary’>’Working Set’>Select the ‘CAL FIRE’ Tab>Region ‘3RSS’> Unit ‘SLU San Luis Obispo’>Sub Unit ‘COASTAL Coastal’> ‘Ok’
 <br>1.	Annual Filter should be set for the entire calendar year for these graphs. 
 <br>ii.	Screen Shot the graph and insert into FDOP
 <br>iii.	Complete the Steps above for each Sub Unit
 All fire occurrence graphs need to be based on the entire calendar year.
-<br><br>2.	Determining Thresholds:  
+<br><br><b>2.	Determining Thresholds:<b/>  
 For each FDRA the thresholds need to be determined.  The program will do this for you however; you need to confirm that the default percentage values for the thresholds are indeed accurate after all climatology statistics graphs have been run.  The given percentages should coincide with the data output of the fire analysis.  
   
-<br>3.	Three indice graphs for each FDRA
+<br><b>3.	Three indice graphs for each FDRA<b/>
 <br>a.	ERC displaying: min, max, avg 
 <br>i.	‘Weather’>’Climatology’>Select the ‘Stats Graph’ box for the Variable ‘Energy Release Component’>’Run’
 <br>ii.	Maximize the left portion of the screen 
@@ -151,18 +152,20 @@ For each FDRA the thresholds need to be determined.  The program will do this fo
 <br>iv.	The onset of fire season is illustrated here when the ‘Average’ line crosses the 38th percentile threshold.  The purpose of this graph is to show that fire season can start well before the traditional start (May 15th) of fire season and conversely, that fire season sometimes starts after the common start date.  
 <br>v.	Select ‘Options’>’Overlays’>’New’>  Toggle between the years and find the year that has the earliest start date (When it crosses the 38th percentile threshold) and which has the latest start date.  Give each a unique color, a line width of 3, and make it a solid line. Select ‘Ok’.  
 <br>vi.	Screen Shot the Graph and insert into the FDOP
-<br>4.	Decision Points for Dispatch Level 
+<br><b>4.	Decision Points for Dispatch Level<b/> 
 <br>a.	Decision points should be set using BI. 
 <br>i.	Select the ‘A’ on the ribbon at the top of the screen> run the operation with default values selected> Click on the ‘Fires Probability Analysis’ Window> Select ‘View’> ‘Decision Points’> Delete 2 records so you are left with 3 classes
 <br>ii.	Set the first class to 0, set the second class to the value at which fires begin to take off.  Visually, this is when there appears to be a large jump from low to high.  The last class should be set at the BI value where the crest of the graph is no longer in a drastic incline and starts to plateau. The second decision class created should hold the greatest number of fires whereas the first and last should contain the least amount of fire occurrence.  
 <br>iii.	When these levels have been adjusted to accommodate the fire data select ‘Apply’> Adjust the screen so that all graphs fit appropriately>Screen shot and insert into the FDOP. 
 <br>iv.	Adjust the ‘Dispatch Level: Fire Family Plus Analysis Factors and Determinations’ Table (Specifically, the ‘Index Break Points’ section).  
 NOTE: All Decision Point graphs need to be based on Fire season (May1-Oct 31), not the calendar year.
-<br>5.	When updating numbers and percent values in FDOP:
+<br><b>5.	When updating numbers and percent values in FDOP:<b/>
 <br>a.	Follow instructions to look at fire occurrence chart> Select ‘Options’> ‘View Graph Data’
 <br>b.	This ‘Fire Occurrence Summary’ page will provide the exact values behind all the graphics illustrated for fire occurrence. 
-Staffing Level
-Staffing Level is an important component of the Adjective Fire Danger Rating and is calculated in WIMS.  It is a way for us to break up the BI continuum based on percentile to make it more useful.  Staffing level, along with Ignition Component, is a way for describe relative fire risk. 
+
+
+<h4>Staffing Level<h4/>
+<hr>Staffing Level is an important component of the Adjective Fire Danger Rating and is calculated in WIMS.  It is a way for us to break up the BI continuum based on percentile to make it more useful.  Staffing level, along with Ignition Component, is a way for describe relative fire risk. 
 
 <br><br>1.	Staffing Level will be determined using fuel model G. 
 This is determined by running different fuel models against fire and weather history data.  When running the different fuel models with your data you should choose the fuel model that yields the ideal statistical output. The ideal statistical output includes a BI of at least 100, all graphs should be a bell curve, the data should have a linear distribution across the spectrum, and no graphs should be inverted.  If you find a fuel model that yields these results, it means that fuel model is the best for fit for your data set and should be the fuel model you should used in the analysis of staffing level. In this analysis, fuel model G (which also happens to be the standard fuel model) was determined to be the best fit for the data set. 
