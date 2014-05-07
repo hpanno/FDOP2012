@@ -9,23 +9,23 @@ Fire Danger Operating Plan 2012
 
 http://www.firemodels.org/index.php/firefamilyplus-software/firefamilyplus-downloads
 
-<br>2.	Create a Database:
+<br><b>2.	Create a Database:<b/>
 <br>File> New> Name your Database and save it to an appropriate location> Give it a description.
 
 <h3>Station Catalog</h3>
-<hr>1.	Download station catalog information from:
+<hr><b>1.	Download station catalog information from:<b/>
 
 https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 
 Select Weather> Station Catalog> Station Information> Select ‘Single Station’> Enter in Station ID> Select Output Destination to “Send file to FTP site”> Save .txt file to appropriate folder
-<br><br>2.	Importing the Station Catalog:
+<br><b>2.	Importing the Station Catalog:<b/>
 <br>-On the Data Menu> Select Import> Select WIMS Station Catalogs> Select the appropriate .txt file> 
-<br>-From the data Menu> Select Stations> This will show you which stations are available for you to work with in the data base and you should see the station catalog you have just imported.  From this screen you can highlight your station and select ‘Edit’.  This will show you all the attributes of your station.  (You should make note of the USFS region – you will need to know that value for when you download your fire data).     
+<br>-From the data Menu> Select Stations> This will show you which stations are available for you to work with in the data base and you should see the station catalog you have just imported.  From this screen you can highlight your station and select ‘Edit’.  This will show you all the attributes of your station.  <b>(You should make note of the USFS region – you will need to know that value for when you download your fire data).<b/>     
 <br>- In your working set dialog box under ‘SIG/Station’> Select your station from the drop down menu. 
-Weather
-<br>1.	Download weather data from:
-https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
-Select Weather> Data Extract> Historical> Enter in Station ID and date range> Select ‘Raw Datafile – 1998 Data Format> Save .fw9 file to appropriate folder
+<h3>Weather<h3/>
+<hr><br><b>1.	Download weather data from:<b/>
+<br>https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
+<br>Select Weather> Data Extract> Historical> Enter in Station ID and date range> Select ‘Raw Datafile – 1998 Data Format> Save .fw9 file to appropriate folder
 
 <br><br>2.	Importing the  Weather Data:
 <br>-From the Data Menu> Select Import> Select Old Wx Import> The Selected Fields should include: Station ID, Obs Date, Obs Time, Obs Type, OMC10, RH, and Windspeed> Select the StationID Box> Select Overwrite Duplicates.  
